@@ -1,7 +1,7 @@
 """Script for periodic temperature Json report via MQTT protocol."""
 import network
 import machine
-from simple import MQTTClient
+from umqtt.simple import MQTTClient
 from time import ticks_ms, sleep, sleep_ms
 from onewire import OneWire
 from ds18x20 import DS18X20
