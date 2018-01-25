@@ -19,9 +19,6 @@ mqtt = MQTTClient(config["device_name"], config["mqtt_server"],
 def wifi_connect(timeout=20):
     """Connect to WiFi with timeout [s]."""
     sta.active(True)
-    #sta.config(dhcp_hostname=config["device_name"])
-    #sta.ifconfig((config["wifi_ip"], config["wifi_mask"],
-    #              config["wifi_gateway"], config["wifi_dns"]))
     sta.connect(config["wifi_ssid"], config["wifi_pass"])
     attempt = 0
     print("Connecting to WiFi.", end="")

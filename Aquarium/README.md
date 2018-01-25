@@ -5,5 +5,5 @@ TODO:
  - Spínanie ohrievačou pomocou relé
  - Kontrola hladiny
  - Časovač osvetlenia
- - nové
+ 
  
